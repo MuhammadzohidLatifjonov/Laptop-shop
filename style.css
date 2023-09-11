@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #a52a2a;
+  padding: 90px 0;
+}
+
+body > h1{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.search-bar input {
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  width: 335px;
+  box-shadow: 0 36px 10px -20px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar button {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #2864a3;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -20px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.search-bar button:hover {
+  color: #000;
+  background: #52d227;
+}
+
+body > h2 {
+  color: #ff0;
+  font-weight: 100;
+  font-family: consolas;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin-top: 50px;
+  display: none;
+  justify-content: center;
+  gap: 50px;
+}
+
+.comp-box {
+  width: 350px;
+  background: #fff;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 36px 10px -20px rgba(0, 0, 0, 0.5);
+}
+
+.comp-box img {
+  vertical-align: middle;
+  width: 100%;
+  height: 250px;
+}
+
+.malumot {
+  padding: 10px;
+  text-align: start;
+  background: #ddd;
+}
